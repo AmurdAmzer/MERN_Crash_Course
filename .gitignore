@@ -1,0 +1,29 @@
+@"
+# ========== DEPENDENCIES ==========
+node_modules/
+
+# ========== ENVIRONMENT VARIABLES ==========
+.env
+
+# ========== LOG FILES ==========
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========== SYSTEM FILES ==========
+.DS_Store
+Thumbs.db
+
+# ========== IDE/EDITOR SETTINGS ==========
+.vscode/
+.idea/
+
+# ========== BUILD OUTPUT ==========
+dist/
+build/
+
+# ========== PACKAGE MANAGERS LOCK FILES (optional) ==========
+package-lock.json
+yarn.lock
+"@ | Out-File -Encoding utf8 .gitignore -Force
+
